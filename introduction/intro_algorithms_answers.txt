@@ -1,0 +1,40 @@
+Calculating a tip;
+    
+    Total is $54.78
+        10% tip
+        - Round up to nearest whole dollar ($55)
+        - Divide by 10 ($5.50)
+        20% tip
+        - Round up to nearest whole dollar ($55)
+        - Divide by 10 ($5.50)
+        - Multiply by 2 ($11)
+
+
+Determining what to wear;
+
+    - Check weather
+        - If above 70 degrees Fahrenheit
+            - Wear shorts
+        - Else
+            - Wear jeans
+        
+        - If wearing shorts
+            - If in the mood for a V neck, wear V neck
+            - Otherwise wear regular collar shirt
+        - Else
+            - Wear long sleeve shirt
+            - If temp is below 40
+                - If primarily outside
+                    - Wear jacket
+
+
+Getting to work;
+
+    - Exit neighborhood
+    - Continue straight until reaching city highway
+    - Turn left onto city highway
+    - Continue straight until reaching the other city highway
+    - Take a right onto city highway
+    - Continue straight for ~400 feet
+    - Turn left into parking lot
+    - Park and go inside
