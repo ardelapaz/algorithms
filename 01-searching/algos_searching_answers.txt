@@ -1,0 +1,7 @@
+1) 7 Iterations
+
+2) 3 iterations if rounding up (Each letter having a numerical value for an index, and when being rounded up G will be the middle of the third iteration).
+
+3)  fib(10) = 89
+    fib(11) = 144
+    fib(12) = 233
