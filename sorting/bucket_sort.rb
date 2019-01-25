@@ -1,4 +1,6 @@
-def insert_sort(collection) # Borrowed off web to use for bucket sort
+require 'benchmark'
+
+def insert_sort(collection)
     sorted_collection = [collection.delete_at(0)]
 
     for val in collection
@@ -47,5 +49,7 @@ def bucket_sort(collection)
     collection
 end
 
-array_to_sort = [99,23,17,3,111,21,33,47,52,78,65,7,29,2,321,35,50,10].shuffle
+array_to_sort = Array.new(50) { rand(1...200) }
 puts bucket_sort(array_to_sort)
+puts Benchmark.measure{bucket_sort(array_to_sort)}
+# 0.000000   0.000000   0.000000 (  0.000081)

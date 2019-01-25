@@ -1,3 +1,5 @@
+require 'benchmark'
+
 def quick_sort(array, from=0, to=nil)
   if array.length <= 1
     return array
@@ -20,5 +22,7 @@ def quick_sort(array, from=0, to=nil)
     return quick_sort(left), pivot, quick_sort(right)
 end
 
-array_to_sort = [99,23,17,3,111,21,33,47,52,78,65,7,29,2,321,35,50,10].shuffle
+array_to_sort = Array.new(50) { rand(1...200) }
 puts quick_sort(array_to_sort)
+puts Benchmark.measure{quick_sort(array_to_sort)}
+# 0.000000   0.000000   0.000000 (  0.000032)
