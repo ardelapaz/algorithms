@@ -2,6 +2,16 @@
 
 2) 3 iterations if rounding up (Each letter having a numerical value for an index, and when being rounded up G will be the middle of the third iteration).
 
-3)  fib(10) = 89
-    fib(11) = 144
-    fib(12) = 233
+3)  fib(10) = 55
+    fib(11) = 89
+    fib(12) = 144
+
+
+4) ** Given an unsorted collection of a million items, which algorithm would you choose between linear search and binary search? Would you use an iterative or recursive solution? Explain your reasoning. **
+    With an unsorted collection, I would use linear search. Linear search through iteration would be, theortically, the fastest way to sort through this collection, given that you have to search one by one to find said value, since the values are in no particular order.
+
+
+5) ** Given a sorted collection of a million items, which algorithm would you choose between linear search and binary search? Would you use an iterative or recursive solution? Explain your reasoning. ** 
+    With a sorted collection of a million items, I would use a binary iterative serarch. Iterative searches will always be faster, due to recursion needing to create a whole stack for each layer of recursion. In some languages
+    like Java or C, creating a stack frame is more intensive and takes longer.
+
